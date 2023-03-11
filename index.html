@@ -18,40 +18,49 @@
     <form action="*" method="process.php">
      <fieldset><!--fieldset 1-->
         <legend>First Name</legend>
-        <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
     </fieldset>
     <!--fieldset 1 End-->
     
     <fieldset><!--fieldset 2-->
         <legend>Last Name</legend>
-        <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
      </fieldset>
     <!--fieldset 2 End-->
     
     fieldset><!--fieldset 3-->
         <legend>Middle Name</legend>
-        <input type="text" id="mmiddle" name="mname" placeholder="Enter Middle Name">
+        <input type="text" id="mmiddle" name="mname" placeholder="Enter Middle Name" required>
      </fieldset>
     <!--fieldset 3 End-->
     
     fieldset><!--fieldset 4-->
         <legend>Email</legend>
-        <input type="email" id="email" name="email" placeholder="Enter Email">
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
      </fieldset>
     <!--fieldset 4 End-->
-    
+
     fieldset><!--fieldset 5-->
         <legend>Phone Number</legend>
-        <input type="text" id="phone number" name="phone numbet" placeholder="Enter Phone Number">
+        <input type="text" id="phone number" name="phone numbet" placeholder="Enter Phone Number" required>
      </fieldset>
     <!--fieldset 5 End-->
+
+fieldset><!--fieldset 6-->
+        <legend>Gender</legend>
+    <label type="radio" id="male">Male</label>
+    <label type="radio" id="female">Female</label>
+     </fieldset>
+    <!--fieldset 6 End-->
     
     fieldset><!--fieldset 6-->
         <legend>Password</legend>
-        <input type="password" id="password" name="password " placeholder="Enter Password">
+        <input type="password" id="password" name="password " placeholder="Enter Password" required>
      </fieldset>
     <!--fieldset 6 End-->
-    <label type="button">Submit</label>
+    
+    <label type="button" name="btn">Submit</label>
+
     </form>
 </body>
 </html>
