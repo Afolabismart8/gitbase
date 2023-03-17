@@ -4,6 +4,7 @@
 
 body {
     background-color: blueviolet;
+    background-image: ;
 }
 
 fieldset {
@@ -19,15 +20,25 @@ fieldset {
      margin: 150px;
      padding-left: 40px;
      padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 10cqmax;
 }
+
 .firstheader {
-    text-align: right;
-    text-transform: uppercase;
+    text-align: center;
+    text-transform: none;
     color: white;
     background-color: black;
-    width: 400px;
+    padding: 0 0 200px 0;
 }
+
 legend {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    color: whitesmoke;
+    background-color: black;
+    
 }
