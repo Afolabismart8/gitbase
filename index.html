@@ -12,16 +12,17 @@
     <title>Bio-Data Form</title>
 </head>
 <body>
-    <h1>
+    <h1 class="firstheader">
     Fill in the Bio-Data
     </h1>
+<div class="container">
     <form action="*" method="process.php">
      <fieldset><!--fieldset 1-->
         <legend>First Name</legend>
         <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
     </fieldset>
     <!--fieldset 1 End-->
-    
+
     <fieldset><!--fieldset 2-->
         <legend>Last Name</legend>
         <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
@@ -30,7 +31,7 @@
     
     <fieldset><!--fieldset 3-->
         <legend>Middle Name</legend>
-        <input type="text" id="mmiddle" name="mname" placeholder="Enter Middle Name" required>
+        <input type="text" id="mname" name="mname" placeholder="Enter Middle Name" required>
      </fieldset>
     <!--fieldset 3 End-->
     
@@ -60,7 +61,8 @@
     <!--fieldset 6 End-->
     
     <button type="button" name="btn">Submit</button>
-    </form>
+    </div>
+</form>
     <script type="text/JavaScript">
      alert("Bio-Data Form")
      console.log("Successfully Submitted")
